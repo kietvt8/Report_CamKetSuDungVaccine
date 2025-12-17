@@ -234,7 +234,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
             this.xrLabel3,
             this.xrLabel2,
             this.xrLabel11});
-			this.ReportHeader.HeightF = 382.1578F;
+			this.ReportHeader.HeightF = 398.8244F;
 			this.ReportHeader.Name = "ReportHeader";
 			// 
 			// xrLabel29
@@ -250,15 +250,16 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			this.xrLabel29.StylePriority.UseForeColor = false;
 			this.xrLabel29.StylePriority.UseTextAlignment = false;
 			this.xrLabel29.Text = "SOP-YK-009-02 BM-01";
+			this.xrLabel29.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
 			// 
 			// xrLabel28
 			// 
 			this.xrLabel28.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel28.LocationFloat = new DevExpress.Utils.PointFloat(288.4583F, 303.4078F);
+			this.xrLabel28.LocationFloat = new DevExpress.Utils.PointFloat(288.4583F, 326.3245F);
 			this.xrLabel28.Multiline = true;
 			this.xrLabel28.Name = "xrLabel28";
 			this.xrLabel28.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-			this.xrLabel28.SizeF = new System.Drawing.SizeF(231.1668F, 22.91663F);
+			this.xrLabel28.SizeF = new System.Drawing.SizeF(334.7497F, 22.91663F);
 			this.xrLabel28.StylePriority.UseFont = false;
 			this.xrLabel28.StylePriority.UseTextAlignment = false;
 			// 
@@ -267,7 +268,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			this.xrLabel27.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[NoiDung]")});
 			this.xrLabel27.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel27.LocationFloat = new DevExpress.Utils.PointFloat(0F, 349.2411F);
+			this.xrLabel27.LocationFloat = new DevExpress.Utils.PointFloat(0F, 372.1578F);
 			this.xrLabel27.Multiline = true;
 			this.xrLabel27.Name = "xrLabel27";
 			this.xrLabel27.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -279,7 +280,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			// xrLabel24
 			// 
 			this.xrLabel24.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel24.LocationFloat = new DevExpress.Utils.PointFloat(0F, 326.3245F);
+			this.xrLabel24.LocationFloat = new DevExpress.Utils.PointFloat(0F, 349.2412F);
 			this.xrLabel24.Name = "xrLabel24";
 			this.xrLabel24.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
 			this.xrLabel24.SizeF = new System.Drawing.SizeF(627.0001F, 22.91663F);
@@ -290,7 +291,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			// xrLabel22
 			// 
 			this.xrLabel22.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel22.LocationFloat = new DevExpress.Utils.PointFloat(0F, 303.4079F);
+			this.xrLabel22.LocationFloat = new DevExpress.Utils.PointFloat(0F, 326.3246F);
 			this.xrLabel22.Multiline = true;
 			this.xrLabel22.Name = "xrLabel22";
 			this.xrLabel22.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -309,13 +310,14 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			this.xrLabel1.StylePriority.UseFont = false;
 			this.xrLabel1.StylePriority.UseTextAlignment = false;
 			this.xrLabel1.Text = "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM";
+			this.xrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
 			// 
 			// xrLabel21
 			// 
 			this.xrLabel21.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DienThoai]")});
 			this.xrLabel21.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel21.LocationFloat = new DevExpress.Utils.PointFloat(84.13535F, 280.4912F);
+			this.xrLabel21.LocationFloat = new DevExpress.Utils.PointFloat(84.13535F, 303.4079F);
 			this.xrLabel21.Name = "xrLabel21";
 			this.xrLabel21.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
 			this.xrLabel21.SizeF = new System.Drawing.SizeF(542.8646F, 22.91663F);
@@ -326,7 +328,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			// xrLabel20
 			// 
 			this.xrLabel20.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel20.LocationFloat = new DevExpress.Utils.PointFloat(0F, 280.4912F);
+			this.xrLabel20.LocationFloat = new DevExpress.Utils.PointFloat(0F, 303.4079F);
 			this.xrLabel20.Name = "xrLabel20";
 			this.xrLabel20.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
 			this.xrLabel20.SizeF = new System.Drawing.SizeF(84.13553F, 22.91667F);
@@ -339,7 +341,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			this.xrLabel19.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DiaChi]")});
 			this.xrLabel19.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel19.LocationFloat = new DevExpress.Utils.PointFloat(112.8516F, 257.5746F);
+			this.xrLabel19.LocationFloat = new DevExpress.Utils.PointFloat(112.8516F, 280.4912F);
 			this.xrLabel19.Name = "xrLabel19";
 			this.xrLabel19.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
 			this.xrLabel19.SizeF = new System.Drawing.SizeF(514.1483F, 22.9166F);
@@ -350,7 +352,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			// xrLabel18
 			// 
 			this.xrLabel18.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel18.LocationFloat = new DevExpress.Utils.PointFloat(0F, 257.5746F);
+			this.xrLabel18.LocationFloat = new DevExpress.Utils.PointFloat(0F, 280.4912F);
 			this.xrLabel18.Name = "xrLabel18";
 			this.xrLabel18.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
 			this.xrLabel18.SizeF = new System.Drawing.SizeF(112.8517F, 22.91667F);
@@ -363,7 +365,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			this.xrLabel17.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DiaChi]")});
 			this.xrLabel17.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel17.LocationFloat = new DevExpress.Utils.PointFloat(133.5003F, 234.0813F);
+			this.xrLabel17.LocationFloat = new DevExpress.Utils.PointFloat(133.5003F, 257.5746F);
 			this.xrLabel17.Name = "xrLabel17";
 			this.xrLabel17.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
 			this.xrLabel17.SizeF = new System.Drawing.SizeF(493.4996F, 22.91663F);
@@ -374,7 +376,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			// xrLabel16
 			// 
 			this.xrLabel16.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel16.LocationFloat = new DevExpress.Utils.PointFloat(0F, 234.0813F);
+			this.xrLabel16.LocationFloat = new DevExpress.Utils.PointFloat(0F, 257.5746F);
 			this.xrLabel16.Name = "xrLabel16";
 			this.xrLabel16.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
 			this.xrLabel16.SizeF = new System.Drawing.SizeF(136.5004F, 22.91666F);
@@ -385,24 +387,26 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			// xrLabel15
 			// 
 			this.xrLabel15.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel15.LocationFloat = new DevExpress.Utils.PointFloat(472.9582F, 211.1647F);
+			this.xrLabel15.LocationFloat = new DevExpress.Utils.PointFloat(0F, 234.6579F);
 			this.xrLabel15.Name = "xrLabel15";
-			this.xrLabel15.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+			this.xrLabel15.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 2, 0, 0, 100F);
 			this.xrLabel15.SizeF = new System.Drawing.SizeF(66.59662F, 22.91666F);
 			this.xrLabel15.StylePriority.UseFont = false;
+			this.xrLabel15.StylePriority.UsePadding = false;
 			this.xrLabel15.StylePriority.UseTextAlignment = false;
 			this.xrLabel15.Text = " Nơi cấp:";
+			this.xrLabel15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
 			// 
 			// xrLabel14
 			// 
 			this.xrLabel14.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[NoiCap]")});
 			this.xrLabel14.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel14.LocationFloat = new DevExpress.Utils.PointFloat(539.5547F, 211.1647F);
+			this.xrLabel14.LocationFloat = new DevExpress.Utils.PointFloat(66.59649F, 234.6579F);
 			this.xrLabel14.Multiline = true;
 			this.xrLabel14.Name = "xrLabel14";
 			this.xrLabel14.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-			this.xrLabel14.SizeF = new System.Drawing.SizeF(83.86163F, 22.91666F);
+			this.xrLabel14.SizeF = new System.Drawing.SizeF(556.6115F, 22.91666F);
 			this.xrLabel14.StylePriority.UseFont = false;
 			this.xrLabel14.StylePriority.UseTextAlignment = false;
 			this.xrLabel14.Text = "xrLabel14";
@@ -412,10 +416,10 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			this.xrLabel13.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[NgayCap]")});
 			this.xrLabel13.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel13.LocationFloat = new DevExpress.Utils.PointFloat(382.3333F, 211.1646F);
+			this.xrLabel13.LocationFloat = new DevExpress.Utils.PointFloat(508.1668F, 211.1646F);
 			this.xrLabel13.Name = "xrLabel13";
 			this.xrLabel13.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-			this.xrLabel13.SizeF = new System.Drawing.SizeF(90.62485F, 22.91666F);
+			this.xrLabel13.SizeF = new System.Drawing.SizeF(115.0412F, 22.91666F);
 			this.xrLabel13.StylePriority.UseFont = false;
 			this.xrLabel13.StylePriority.UseTextAlignment = false;
 			this.xrLabel13.Text = "xrLabel13";
@@ -423,7 +427,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			// xrLabel12
 			// 
 			this.xrLabel12.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.xrLabel12.LocationFloat = new DevExpress.Utils.PointFloat(308.3748F, 211.1646F);
+			this.xrLabel12.LocationFloat = new DevExpress.Utils.PointFloat(434.2083F, 211.1646F);
 			this.xrLabel12.Name = "xrLabel12";
 			this.xrLabel12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
 			this.xrLabel12.SizeF = new System.Drawing.SizeF(85.41681F, 22.91666F);
@@ -532,6 +536,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			this.xrLabel3.StylePriority.UseFont = false;
 			this.xrLabel3.StylePriority.UseTextAlignment = false;
 			this.xrLabel3.Text = "PHIẾU YÊU CẦU TIÊM CHỦNG";
+			this.xrLabel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
 			// 
 			// xrLabel2
 			// 
@@ -543,6 +548,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			this.xrLabel2.StylePriority.UseFont = false;
 			this.xrLabel2.StylePriority.UseTextAlignment = false;
 			this.xrLabel2.Text = "Độc lập - Tự do - Hạnh phúc";
+			this.xrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
 			// 
 			// xrLabel11
 			// 
@@ -552,7 +558,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(193.7499F, 211.1646F);
 			this.xrLabel11.Name = "xrLabel11";
 			this.xrLabel11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-			this.xrLabel11.SizeF = new System.Drawing.SizeF(114.625F, 22.91666F);
+			this.xrLabel11.SizeF = new System.Drawing.SizeF(240.4584F, 22.91666F);
 			this.xrLabel11.StylePriority.UseFont = false;
 			this.xrLabel11.StylePriority.UseTextAlignment = false;
 			this.xrLabel11.Text = "xrLabel11";
@@ -576,6 +582,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			this.xrLabel23.StylePriority.UseFont = false;
 			this.xrLabel23.StylePriority.UseTextAlignment = false;
 			this.xrLabel23.Text = "(Ký tên, ghi rõ họ và tên)";
+			this.xrLabel23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
 			// 
 			// xrLabel26
 			// 
@@ -589,6 +596,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			this.xrLabel26.StylePriority.UseFont = false;
 			this.xrLabel26.StylePriority.UseTextAlignment = false;
 			this.xrLabel26.Text = "xrLabel26";
+			this.xrLabel26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
 			// 
 			// xrLabel25
 			// 
@@ -600,6 +608,7 @@ public class rptCamKetSuDungVaccine : XtraReport, IReport
 			this.xrLabel25.StylePriority.UseFont = false;
 			this.xrLabel25.StylePriority.UseTextAlignment = false;
 			this.xrLabel25.Text = "Người yêu cầu";
+			this.xrLabel25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
 			// 
 			// rep_CamKetSuDungVaccine1
 			// 
